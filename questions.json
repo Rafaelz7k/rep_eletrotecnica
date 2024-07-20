@@ -1,0 +1,393 @@
+[
+    {
+        "question": "Qual a tensão nominal de uma tomada residencial?",
+        "options": ["110V", "220V", "127V", "240V"],
+        "correct": "127V",
+        "explanation": "A tensão nominal de tomadas residenciais no Brasil geralmente é 127V ou 220V dependendo da região."
+    },
+    {
+        "question": "Qual o valor da resistência em um circuito com corrente de 2A e tensão de 10V?",
+        "options": ["5 ohms", "10 ohms", "20 ohms", "2 ohms"],
+        "correct": "5 ohms",
+        "explanation": "Usando a lei de Ohm (R=V/I), a resistência é 10V/2A = 5 ohms."
+    },    
+    {
+        "question": "Qual a unidade de medida da corrente elétrica?",
+        "options": ["Volt", "Ohm", "Ampere", "Watt"],
+        "correct": "Ampere",
+        "explanation": "A unidade de medida da corrente elétrica é o Ampere."
+    },
+    {
+        "question": "Qual a fórmula para calcular a potência elétrica?",
+        "options": ["P = V/I", "P = I^2 * R", "P = V * I", "P = V/R"],
+        "correct": "P = V * I",
+        "explanation": "A potência elétrica é calculada pela fórmula P = V * I."
+    },
+    {
+        "question": "Qual a unidade de medida da tensão elétrica?",
+        "options": ["Volt", "Ohm", "Ampere", "Watt"],
+        "correct": "Volt",
+        "explanation": "A unidade de medida da tensão elétrica é o Volt."
+    },
+    {
+        "question": "O que é um condutor elétrico?",
+        "options": ["Um material que não permite o fluxo de corrente", "Um material que permite o fluxo de corrente", "Um tipo de resistor", "Um tipo de fonte de energia"],
+        "correct": "Um material que permite o fluxo de corrente",
+        "explanation": "Um condutor elétrico é um material que permite o fluxo de corrente elétrica através dele."
+    },
+    {
+        "question": "Qual é a resistência de um resistor com 12V e 3A?",
+        "options": ["4 ohms", "6 ohms", "9 ohms", "12 ohms"],
+        "correct": "4 ohms",
+        "explanation": "Usando a lei de Ohm (R = V/I), a resistência é 12V / 3A = 4 ohms."
+    },
+    {
+        "question": "Qual é a fórmula da Lei de Ohm?",
+        "options": ["V = I * R", "R = V * I", "I = V / R", "P = V / R"],
+        "correct": "V = I * R",
+        "explanation": "A Lei de Ohm é expressa pela fórmula V = I * R."
+    },
+    {
+        "question": "Como se calcula a energia elétrica consumida em um circuito?",
+        "options": ["E = P * t", "E = I * R", "E = V / R", "E = P / t"],
+        "correct": "E = P * t",
+        "explanation": "A energia elétrica consumida é calculada pela fórmula E = P * t, onde P é a potência e t é o tempo."
+    },
+    {
+        "question": "Qual é a unidade de medida da resistência elétrica?",
+        "options": ["Ohm", "Volt", "Ampere", "Watt"],
+        "correct": "Ohm",
+        "explanation": "A unidade de medida da resistência elétrica é o Ohm."
+    },
+    {
+        "question": "Qual a fórmula para calcular a corrente elétrica em um circuito?",
+        "options": ["I = V / R", "I = V * R", "I = P * R", "I = P / V"],
+        "correct": "I = V / R",
+        "explanation": "A corrente elétrica é calculada pela fórmula I = V / R."
+    },
+    {
+        "question": "Qual a fórmula da potência dissipada em um resistor?",
+        "options": ["P = V / R", "P = V * I", "P = I^2 * R", "P = R / I"],
+        "correct": "P = I^2 * R",
+        "explanation": "A potência dissipada em um resistor é calculada pela fórmula P = I^2 * R."
+    },
+    {
+        "question": "Qual é a unidade de medida da energia elétrica?",
+        "options": ["Joule", "Ohm", "Ampere", "Volt"],
+        "correct": "Joule",
+        "explanation": "A unidade de medida da energia elétrica é o Joule."
+    },
+    {
+        "question": "O que é um circuito em série?",
+        "options": ["Um circuito onde os componentes estão conectados em paralelo", "Um circuito onde os componentes estão conectados em uma única linha", "Um circuito onde a corrente é dividida entre os componentes", "Um circuito com várias fontes de tensão"],
+        "correct": "Um circuito onde os componentes estão conectados em uma única linha",
+        "explanation": "Em um circuito em série, os componentes estão conectados em uma única linha, e a corrente é a mesma em todos os componentes."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a tensão em um circuito em série?",
+        "options": ["V_total = V1 + V2 + ... + Vn", "V_total = V1 - V2", "V_total = V1 * V2", "V_total = V1 / V2"],
+        "correct": "V_total = V1 + V2 + ... + Vn",
+        "explanation": "Em um circuito em série, a tensão total é a soma das tensões individuais dos componentes."
+    },
+    {
+        "question": "Qual é a unidade de medida da potência elétrica?",
+        "options": ["Joule", "Ohm", "Ampere", "Watt"],
+        "correct": "Watt",
+        "explanation": "A unidade de medida da potência elétrica é o Watt."
+    },
+    {
+        "question": "O que é um circuito em paralelo?",
+        "options": ["Um circuito onde os componentes estão conectados em série", "Um circuito onde os componentes estão conectados em paralelo, compartilhando a mesma tensão", "Um circuito com apenas um componente", "Um circuito com várias fontes de corrente"],
+        "correct": "Um circuito onde os componentes estão conectados em paralelo, compartilhando a mesma tensão",
+        "explanation": "Em um circuito em paralelo, os componentes estão conectados de forma que cada um compartilha a mesma tensão."
+    },
+    {
+        "question": "Como se calcula a resistência equivalente em um circuito em paralelo?",
+        "options": ["1 / R_eq = 1 / R1 + 1 / R2 + ... + 1 / Rn", "R_eq = R1 + R2 + ... + Rn", "R_eq = V / I", "R_eq = I / V"],
+        "correct": "1 / R_eq = 1 / R1 + 1 / R2 + ... + 1 / Rn",
+        "explanation": "A resistência equivalente em um circuito em paralelo é calculada pela fórmula 1 / R_eq = 1 / R1 + 1 / R2 + ... + 1 / Rn."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a tensão em um circuito em paralelo?",
+        "options": ["V_total = V1", "V_total = V1 + V2", "V_total = V1 * V2", "V_total = V1 / V2"],
+        "correct": "V_total = V1",
+        "explanation": "Em um circuito em paralelo, a tensão total é a mesma para todos os componentes."
+    },
+    {
+        "question": "O que é um curto-circuito?",
+        "options": ["Quando a resistência de um circuito é muito alta", "Quando a corrente é muito baixa", "Quando há uma conexão direta entre dois pontos com baixa resistência", "Quando a tensão é muito alta"],
+        "correct": "Quando há uma conexão direta entre dois pontos com baixa resistência",
+        "explanation": "Um curto-circuito ocorre quando há uma conexão direta entre dois pontos com baixa resistência, permitindo uma corrente excessiva."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a energia consumida por um dispositivo elétrico?",
+        "options": ["E = P * t", "E = I * V", "E = V / I", "E = R * I^2"],
+        "correct": "E = P * t",
+        "explanation": "A energia consumida é calculada pela fórmula E = P * t, onde P é a potência e t é o tempo."
+    },
+    {
+        "question": "Qual a relação entre potência, tensão e corrente?",
+        "options": ["P = V * I", "P = V / I", "P = I * R", "P = V + I"],
+        "correct": "P = V * I",
+        "explanation": "A potência é dada pela fórmula P = V * I, onde V é a tensão e I é a corrente."
+    },
+    {
+        "question": "O que é um resistor?",
+        "options": ["Um dispositivo que armazena energia", "Um dispositivo que fornece corrente elétrica", "Um dispositivo que limita a corrente elétrica em um circuito", "Um dispositivo que altera a tensão elétrica"],
+        "correct": "Um dispositivo que limita a corrente elétrica em um circuito",
+        "explanation": "Um resistor é um componente que limita a corrente elétrica em um circuito, de acordo com sua resistência."
+    },
+    {
+        "question": "Qual a fórmula para calcular a resistência de um resistor usando a Lei de Ohm?",
+        "options": ["R = V * I", "R = V / I", "R = I * V", "R = P / V"],
+        "correct": "R = V / I",
+        "explanation": "A resistência é calculada pela fórmula R = V / I, onde V é a tensão e I é a corrente."
+    },
+    {
+        "question": "Qual é a diferença entre corrente alternada (AC) e corrente contínua (DC)?",
+        "options": ["AC tem uma direção constante, enquanto DC varia", "DC tem uma direção constante, enquanto AC varia", "AC e DC têm a mesma direção de corrente", "AC é usada em baterias e DC em tomadas"],
+        "correct": "DC tem uma direção constante, enquanto AC varia",
+        "explanation": "A corrente contínua (DC) tem uma direção constante, enquanto a corrente alternada (AC) varia sua direção periodicamente."
+    },
+    {
+        "question": "Qual a fórmula para calcular a potência em um circuito usando tensão e resistência?",
+        "options": ["P = V / R", "P = V * I", "P = I^2 * R", "P = V^2 / R"],
+        "correct": "P = V^2 / R",
+        "explanation": "A potência pode ser calculada usando a fórmula P = V^2 / R, onde V é a tensão e R é a resistência."
+    },
+    {
+        "question": "O que é um capacitor?",
+        "options": ["Um dispositivo que armazena energia elétrica", "Um dispositivo que limita a corrente elétrica", "Um dispositivo que altera a resistência elétrica", "Um dispositivo que mede a tensão elétrica"],
+        "correct": "Um dispositivo que armazena energia elétrica",
+        "explanation": "Um capacitor é um componente que armazena energia elétrica na forma de campo elétrico."
+    },
+    {
+        "question": "Qual é a unidade de medida da capacitância?",
+        "options": ["Farad", "Ohm", "Volt", "Watt"],
+        "correct": "Farad",
+        "explanation": "A unidade de medida da capacitância é o Farad."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a capacitância em série?",
+        "options": ["1 / C_eq = 1 / C1 + 1 / C2 + ... + 1 / Cn", "C_eq = C1 + C2 + ... + Cn", "C_eq = V / I", "C_eq = I / V"],
+        "correct": "1 / C_eq = 1 / C1 + 1 / C2 + ... + 1 / Cn",
+        "explanation": "A capacitância equivalente em série é calculada pela fórmula 1 / C_eq = 1 / C1 + 1 / C2 + ... + 1 / Cn."
+    },
+    {
+        "question": "Qual a fórmula para calcular a capacitância em paralelo?",
+        "options": ["C_eq = C1 + C2 + ... + Cn", "1 / C_eq = 1 / C1 + 1 / C2 + ... + 1 / Cn", "C_eq = V / I", "C_eq = I / V"],
+        "correct": "C_eq = C1 + C2 + ... + Cn",
+        "explanation": "A capacitância equivalente em paralelo é calculada pela fórmula C_eq = C1 + C2 + ... + Cn."
+    },
+    {
+        "question": "Qual a fórmula para calcular a energia armazenada em um capacitor?",
+        "options": ["E = 1/2 * C * V^2", "E = C * V", "E = V / C", "E = C / V"],
+        "correct": "E = 1/2 * C * V^2",
+        "explanation": "A energia armazenada em um capacitor é calculada pela fórmula E = 1/2 * C * V^2."
+    },
+    {
+        "question": "Qual é a unidade de medida da energia armazenada em um capacitor?",
+        "options": ["Joule", "Farad", "Ohm", "Volt"],
+        "correct": "Joule",
+        "explanation": "A unidade de medida da energia armazenada em um capacitor é o Joule."
+    },
+    {
+        "question": "O que é a Lei de Ohm?",
+        "options": ["A relação entre corrente, tensão e resistência", "A fórmula para calcular a energia elétrica", "A fórmula para calcular a potência", "A fórmula para calcular a capacitância"],
+        "correct": "A relação entre corrente, tensão e resistência",
+        "explanation": "A Lei de Ohm descreve a relação entre corrente, tensão e resistência em um circuito elétrico."
+    },
+    {
+        "question": "Como se calcula a tensão em um circuito usando a potência e a corrente?",
+        "options": ["V = P / I", "V = P * I", "V = I * R", "V = P / R"],
+        "correct": "V = P / I",
+        "explanation": "A tensão pode ser calculada pela fórmula V = P / I, onde P é a potência e I é a corrente."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a corrente em um circuito usando potência e tensão?",
+        "options": ["I = P / V", "I = P * V", "I = V / R", "I = P * R"],
+        "correct": "I = P / V",
+        "explanation": "A corrente pode ser calculada pela fórmula I = P / V, onde P é a potência e V é a tensão."
+    },
+    {
+        "question": "Qual a diferença entre potência ativa e potência aparente?",
+        "options": ["Potência ativa é a real usada em trabalho, enquanto potência aparente é a total fornecida", "Potência ativa é a total fornecida, enquanto potência aparente é a real usada em trabalho", "Potência ativa e potência aparente são iguais", "Potência ativa é a corrente, enquanto potência aparente é a tensão"],
+        "correct": "Potência ativa é a real usada em trabalho, enquanto potência aparente é a total fornecida",
+        "explanation": "Potência ativa é a real usada em trabalho (em watts), enquanto potência aparente é a total fornecida (em volt-amperes)."
+    },
+    {
+        "question": "O que é a potência reativa?",
+        "options": ["A potência que não realiza trabalho útil", "A potência real usada em trabalho", "A potência total fornecida", "A potência dissipada em resistores"],
+        "correct": "A potência que não realiza trabalho útil",
+        "explanation": "A potência reativa é a parte da potência que não realiza trabalho útil e é associada ao armazenamento e liberação de energia em capacitores e indutores."
+    },
+    {
+        "question": "Qual a fórmula para calcular a potência reativa em um circuito?",
+        "options": ["Q = V * I * sin(θ)", "Q = P * I", "Q = V / R", "Q = I^2 * R"],
+        "correct": "Q = V * I * sin(θ)",
+        "explanation": "A potência reativa é calculada pela fórmula Q = V * I * sin(θ), onde θ é o ângulo de fase entre a corrente e a tensão."
+    },
+    {
+        "question": "Qual é a unidade de medida da potência reativa?",
+        "options": ["Joule", "Volt-Ampere", "Ohm", "Watt"],
+        "correct": "Volt-Ampere",
+        "explanation": "A unidade de medida da potência reativa é o Volt-Ampere (VA)."
+    },
+    {
+        "question": "O que é a impedância?",
+        "options": ["A resistência total em um circuito AC", "A resistência total em um circuito DC", "A potência dissipada em um resistor", "A energia armazenada em um capacitor"],
+        "correct": "A resistência total em um circuito AC",
+        "explanation": "A impedância é a resistência total em um circuito de corrente alternada (AC), levando em conta tanto a resistência quanto a reatância."
+    },
+    {
+        "question": "Qual a fórmula para calcular a impedância em um circuito com resistor e indutor em série?",
+        "options": ["Z = √(R^2 + X_L^2)", "Z = R + X_L", "Z = R * X_L", "Z = R / X_L"],
+        "correct": "Z = √(R^2 + X_L^2)",
+        "explanation": "A impedância em um circuito com resistor e indutor em série é calculada pela fórmula Z = √(R^2 + X_L^2), onde X_L é a reatância indutiva."
+    },
+    {
+        "question": "Qual a fórmula para calcular a reatância indutiva?",
+        "options": ["X_L = 2 * π * f * L", "X_L = R / L", "X_L = V / I", "X_L = I / R"],
+        "correct": "X_L = 2 * π * f * L",
+        "explanation": "A reatância indutiva é calculada pela fórmula X_L = 2 * π * f * L, onde f é a frequência e L é a indutância."
+    },
+    {
+        "question": "Qual a fórmula para calcular a reatância capacitiva?",
+        "options": ["X_C = 1 / (2 * π * f * C)", "X_C = V * C", "X_C = I / R", "X_C = R / C"],
+        "correct": "X_C = 1 / (2 * π * f * C)",
+        "explanation": "A reatância capacitiva é calculada pela fórmula X_C = 1 / (2 * π * f * C), onde f é a frequência e C é a capacitância."
+    },
+    {
+        "question": "Qual é a unidade de medida da reatância?",
+        "options": ["Ohm", "Volt", "Ampere", "Watt"],
+        "correct": "Ohm",
+        "explanation": "A unidade de medida da reatância é o Ohm."
+    },
+    {
+        "question": "Qual a diferença entre corrente elétrica e fluxo de elétrons?",
+        "options": ["Corrente elétrica é o fluxo de elétrons", "Corrente elétrica é uma forma de energia, enquanto fluxo de elétrons é a movimentação dos elétrons", "Corrente elétrica e fluxo de elétrons são a mesma coisa", "Corrente elétrica é a tensão, enquanto fluxo de elétrons é a corrente"],
+        "correct": "Corrente elétrica é o fluxo de elétrons",
+        "explanation": "Corrente elétrica é o fluxo de elétrons através de um condutor."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a corrente em um circuito com resistores em paralelo?",
+        "options": ["I_total = I1 + I2 + ... + In", "I_total = V / R_total", "I_total = R1 + R2 + ... + Rn", "I_total = V * R"],
+        "correct": "I_total = I1 + I2 + ... + In",
+        "explanation": "Em um circuito com resistores em paralelo, a corrente total é a soma das correntes individuais."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a tensão em um circuito com resistores em série?",
+        "options": ["V_total = V1 + V2 + ... + Vn", "V_total = V1 - V2", "V_total = V1 * V2", "V_total = V1 / V2"],
+        "correct": "V_total = V1 + V2 + ... + Vn",
+        "explanation": "Em um circuito com resistores em série, a tensão total é a soma das tensões individuais."
+    },
+    {
+        "question": "O que é a resistência interna de uma fonte de energia?",
+        "options": ["A resistência oferecida pela fonte ao fluxo de corrente", "A resistência do circuito externo", "A resistência do resistor conectado à fonte", "A resistência oferecida ao fluxo de tensão"],
+        "correct": "A resistência oferecida pela fonte ao fluxo de corrente",
+        "explanation": "A resistência interna é a resistência oferecida pela própria fonte ao fluxo de corrente elétrica."
+    },
+    {
+        "question": "Qual a fórmula para calcular a tensão na resistência interna de uma fonte?",
+        "options": ["V_internal = I * R_internal", "V_internal = P / I", "V_internal = R * I^2", "V_internal = I * V"],
+        "correct": "V_internal = I * R_internal",
+        "explanation": "A tensão na resistência interna de uma fonte é calculada pela fórmula V_internal = I * R_internal."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a corrente em um circuito com um capacitor e um resistor em série?",
+        "options": ["I = V / (R + X_C)", "I = V * (R + X_C)", "I = V / R", "I = V * R"],
+        "correct": "I = V / (R + X_C)",
+        "explanation": "Em um circuito com um capacitor e um resistor em série, a corrente é calculada pela fórmula I = V / (R + X_C), onde X_C é a reatância capacitiva."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a potência total em um circuito AC?",
+        "options": ["P_total = P_ativa + P_reativa", "P_total = P_ativa * P_reativa", "P_total = V * I", "P_total = I^2 * R"],
+        "correct": "P_total = P_ativa + P_reativa",
+        "explanation": "A potência total em um circuito AC é a soma da potência ativa e da potência reativa."
+    },
+    {
+        "question": "O que é um circuito RC?",
+        "options": ["Um circuito que possui um resistor e um capacitor em série ou paralelo", "Um circuito que possui apenas resistores", "Um circuito que possui apenas capacitores", "Um circuito que não possui componentes"],
+        "correct": "Um circuito que possui um resistor e um capacitor em série ou paralelo",
+        "explanation": "Um circuito RC é um circuito que contém um resistor e um capacitor, conectados em série ou em paralelo."
+    },
+    {
+        "question": "Qual a fórmula para calcular a frequência de ressonância em um circuito RLC?",
+        "options": ["f_ress = 1 / (2 * π * √(L * C))", "f_ress = 2 * π * √(L * C)", "f_ress = L / C", "f_ress = C / L"],
+        "correct": "f_ress = 1 / (2 * π * √(L * C))",
+        "explanation": "A frequência de ressonância em um circuito RLC é calculada pela fórmula f_ress = 1 / (2 * π * √(L * C))."
+    },
+    {
+        "question": "Qual é a unidade de medida da indutância?",
+        "options": ["Henry", "Farad", "Ohm", "Volt"],
+        "correct": "Henry",
+        "explanation": "A unidade de medida da indutância é o Henry."
+    },
+    {
+        "question": "O que é a tensão de circuito aberto?",
+        "options": ["A tensão medida quando o circuito está aberto e não há corrente fluindo", "A tensão medida quando o circuito está fechado", "A tensão medida quando o circuito está curto-circuitado", "A tensão medida na resistência interna da fonte"],
+        "correct": "A tensão medida quando o circuito está aberto e não há corrente fluindo",
+        "explanation": "A tensão de circuito aberto é a tensão medida quando o circuito está aberto e não há corrente fluindo através dele."
+    },
+    {
+        "question": "Qual a fórmula para calcular a corrente em um circuito com uma fonte de tensão e um resistor?",
+        "options": ["I = V / R", "I = R / V", "I = V * R", "I = R * V"],
+        "correct": "I = V / R",
+        "explanation": "A corrente em um circuito com uma fonte de tensão e um resistor é calculada pela fórmula I = V / R."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a resistência em um circuito com resistores em paralelo?",
+        "options": ["1 / R_eq = 1 / R1 + 1 / R2 + ... + 1 / Rn", "R_eq = R1 + R2 + ... + Rn", "R_eq = V / I", "R_eq = I / V"],
+        "correct": "1 / R_eq = 1 / R1 + 1 / R2 + ... + 1 / Rn",
+        "explanation": "A resistência equivalente em um circuito com resistores em paralelo é calculada pela fórmula 1 / R_eq = 1 / R1 + 1 / R2 + ... + 1 / Rn."
+    },
+    {
+        "question": "Qual a fórmula para calcular a tensão em um circuito com resistores em série?",
+        "options": ["V_total = V1 + V2 + ... + Vn", "V_total = V1 - V2", "V_total = V1 * V2", "V_total = V1 / V2"],
+        "correct": "V_total = V1 + V2 + ... + Vn",
+        "explanation": "A tensão total em um circuito com resistores em série é a soma das tensões individuais."
+    },
+    {
+        "question": "Qual a fórmula para calcular a potência em um circuito com uma carga resistiva?",
+        "options": ["P = I^2 * R", "P = V / R", "P = R / I", "P = V * R"],
+        "correct": "P = I^2 * R",
+        "explanation": "A potência dissipada em uma carga resistiva é calculada pela fórmula P = I^2 * R."
+    },
+    {
+        "question": "Qual é a fórmula para calcular a energia armazenada em um capacitor?",
+        "options": ["E = 1/2 * C * V^2", "E = C * V", "E = V / C", "E = C / V"],
+        "correct": "E = 1/2 * C * V^2",
+        "explanation": "A energia armazenada em um capacitor é calculada pela fórmula E = 1/2 * C * V^2."
+    },
+    {
+        "question": "Qual é a unidade de medida da potência aparente?",
+        "options": ["Volt-Ampere", "Ohm", "Watt", "Joule"],
+        "correct": "Volt-Ampere",
+        "explanation": "A unidade de medida da potência aparente é o Volt-Ampere (VA)."
+    },
+    {
+        "question": "Qual a fórmula para calcular a potência aparente em um circuito AC?",
+        "options": ["S = V * I", "S = P * Q", "S = P + Q", "S = I * R"],
+        "correct": "S = V * I",
+        "explanation": "A potência aparente em um circuito AC é calculada pela fórmula S = V * I, onde V é a tensão e I é a corrente."
+    },
+    {
+        "question": "O que é um circuito RLC?",
+        "options": ["Um circuito que possui um resistor, um indutor e um capacitor", "Um circuito que possui apenas resistores", "Um circuito que possui apenas capacitores", "Um circuito que possui apenas indutores"],
+        "correct": "Um circuito que possui um resistor, um indutor e um capacitor",
+        "explanation": "Um circuito RLC é um circuito que contém um resistor, um indutor e um capacitor, conectados em série ou em paralelo."
+    },
+    {
+        "question": "Qual a fórmula para calcular a frequência de corte em um circuito RC?",
+        "options": ["f_c = 1 / (2 * π * R * C)", "f_c = 2 * π * R * C", "f_c = R / C", "f_c = C / R"],
+        "correct": "f_c = 1 / (2 * π * R * C)",
+        "explanation": "A frequência de corte em um circuito RC é calculada pela fórmula f_c = 1 / (2 * π * R * C)."
+    },
+    {
+        "question": "Qual é a unidade de medida da resistência?",
+        "options": ["Ohm", "Farad", "Henry", "Volt"],
+        "correct": "Ohm",
+        "explanation": "A unidade de medida da resistência é o Ohm."
+    }    
+
+]
