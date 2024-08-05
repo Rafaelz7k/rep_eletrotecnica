@@ -6,7 +6,8 @@ def load_questions(file_questions):
         return json.load(file)
 
 def ask_question(question):
-    print(f"{question['question']}")
+    print(f"Tema: {question['theme']}")
+    print(f"Questão: {question['question']}")
     for idx, option in enumerate(question['options'], start=1):
         print(f"{idx}. {option}")
     
@@ -20,7 +21,8 @@ def check_answer(question, user_answer):
         print("Resposta correta!")
         return True
     else:
-        print(f"Resposta errada! {question['explanation']}")
+        print(f"Resposta errada!")
+        print(f"Explicação: {question['explanation']} ")
         return False
 
 def main():
